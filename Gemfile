@@ -42,5 +42,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Hash generator
 gem 'devise'
 
-# Toker generator
+# Token generator
 gem 'simple_token_authentication'
