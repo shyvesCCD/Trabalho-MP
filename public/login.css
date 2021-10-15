@@ -1,0 +1,18 @@
+.formTitle {
+    margin: 0;
+}
+form {
+    display: table;
+}
+form div {
+    display: table-row;
+}
+form div label {
+    display: table-cell;
+}
+.formElem label {
+    width: 10em;
+}
+#loginStatus {
+    color: red;
+}

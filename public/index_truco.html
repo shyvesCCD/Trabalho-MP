@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Truco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="login.css">
+    <link rel="icon" type="image/icon" href="./img/favicon.ico">
+</head>
+
+<body onload="onLoad()">
+    <nav>
+        <img class="logo" src="./img/card.svg" alt="Overpass logo">
+        <h2 class="navTitle"><a href="/">Jogo de Truco Online</a></h2>
+        <a class="current" href="#">Sobre nós</a>
+        <a href="#">Regras</a>
+    </nav>
+    <div class="content" >
+        <h1>Área de Login</h1>
+        <p>Por favor, identifique-se para ter acesso ao conteúdo.</p>
+        <form id="loginForm">
+            <div class="formElem"><label for="email">Email:</label><input id="email" name="email" required></div>
+            <div class="formElem"><label for="senha">Senha:</label><input id="senha" name="senha"
+                    type="senha" required></div>
+            <button>Login</button>
+        </form>
+        <div id="loginStatus"></div>
+    </div>
+</body>
+
+</html>

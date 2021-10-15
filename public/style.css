@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+nav {
+    background: rgb(39, 145, 39);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    font-weight: bold;
+}
+.bodyFlexContainer {
+    margin-top: 1rem;
+    display: flex;
+}
+.bodyFlexContainer p {
+    margin-left: 1rem;
+}
+.bodyFlexContainer h4 {
+    margin-left: 1rem;
+}
+.current {
+    text-decoration: underline;
+}
+.logo {
+    height: 2.5rem;
+}
+.subtitle {
+    color: grey;
+    margin: 0;
+}
+.content {
+    padding: 0 0.5rem;
+}
+.pageHeading {
+    margin: 1rem 0 0 0;
+    background-color: ivory;
+}
+.navTitle {
+    margin: 0;
+    display: inline-flex;
+    flex: auto;
+    justify-content: space-between;
+}
+.navTitle a {
+    display: inline;
+    padding: 0;
+}
+.aboutTitle {
+    margin: 0.5rem 0;
+}
+.aboutText {
+    margin: 0.25rem 0;
+}
+#lockImg {
+    border-radius: 0.5rem;
+    width: 30vw;
+}
