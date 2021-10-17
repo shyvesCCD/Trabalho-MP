@@ -62,4 +62,5 @@ nav a {
 .item input:hover{
     background-color: black;
     color: blanchedalmond;
+    transition: all .3s ease-out;
 }
