@@ -12,6 +12,7 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
 .navTitle {
     margin: 0;
     display: inline-flex;
@@ -49,4 +50,16 @@ nav a {
     font-size: 1.6rem;
     border: none;
     cursor: pointer;
+}
+
+.item {
+    background-color: black;
+    padding: 3px;
+    border-radius: 4rem;
+    box-shadow: 3px 3px 1px 0px;
+}
+
+.item input:hover{
+    background-color: black;
+    color: blanchedalmond;
 }
