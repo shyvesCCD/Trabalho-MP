@@ -1,0 +1,18 @@
+.pack{
+    display: flex;
+    padding-left: 31%;
+}
+
+.carta{
+    position: relative;
+    padding: 2rem;
+}
+
+.up {
+    position: relative;
+    margin-left: 45%;
+    display: flex;
+    color: red;
+}
+
+
