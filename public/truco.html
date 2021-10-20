@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="icon" type="image/icon" href="./img/favicon2.ico"> 
+		<link rel="stylesheet" href="truco.css">
+		<meta charset="UTF-8">
+		<title>Truco Paulista</title>
+	</head>
+	<body>
+
+		<div id="round">
+			<div >
+				<p id="rodada1" class="letra"> </p>
+			</div>
+			<div >
+				<p id="rodada2" class="letra"> </p>
+			</div>
+			<div >
+				<p id="rodada3" class="letra"> </p>
+			</div>
+		</div>
+
+		<div id="placar1" class="plac">
+			<p id="player1">player: 11pts</p>
+		</div>
+		<div id="placar2" class="plac">
+			<p id="player2">CPU: 11pts</p>
+		</div>
+
+
+		<div id="adversario">
+			<div class="card" id="ac1">
+				<img src="baralho/10.png" alt="">
+			</div>
+			<div class="card" id="ac2">
+				<img src="baralho/20.png" alt="">
+			</div>
+			<div class="card" id="ac3">
+				<img src="baralho/13.png" alt="">
+			</div>
+		</div>
+
+		<div id="played">
+			<div id="baralho" class="card">
+				<img src="baralho/0.png">
+			</div>
+			
+			<div id="vira">
+				<img src="baralho/1.png" alt="">
+			</div>
+
+			<div id="estado">
+				<div id="inPlay3">
+				</div>
+				<div id="inPlay2">
+				</div>
+				<div id="inPlay1">
+				</div>
+			</div>
+		</div>
+
+		<div id="player">
+			<div id="posi1">
+				<div id="esc1" class="escbt">
+					<button class="btp1" id="draw0" onclick="jogo.game(0);">Jogar</button>
+				</div>
+				<div class="card" id="pc1">
+					<img src="baralho/30.png" alt="">
+				</div>
+			</div>	
+			
+			<div id="posi2">
+				<div id="esc2" class="escbt">
+					<button class="btp1" id="draw1" onclick="jogo.game(1);">Jogar</button>
+				</div>
+				<div class="card" id="pc2">
+					<img src="baralho/29.png" alt="">
+				</div>
+			</div>
+			
+			<div id="posi3">
+				<div id="esc3" class="escbt">
+					<button class="btp1" id="draw2" onclick="jogo.game(2);">Jogar</button>
+				</div>
+				<div class="card" id="pc3">
+					<img src="baralho/6.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div id="chose">
+			<button id="truco" class="chbt" onclick="jogo.truco(1);">TRuuuUCO!</button>	
+			<a href="./"><button class="chbt"> Menu inicial </button></a>
+		</div>
+</body>
+
+<script type="text/javascript" src="truco.js"></script>
+
+</html>
