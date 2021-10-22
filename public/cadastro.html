@@ -11,7 +11,7 @@
     <link rel="icon" type="image/icon" href="./img/favicon.ico">
 </head>
 
-<body onload="onLoad()">
+<body> 
     <nav>
         <img class="logo" src="./img/card.svg" alt="Card">
         <h2 class="navTitle"><a href="index.html">Jogo de Truco Online</a></h2>
@@ -28,7 +28,7 @@
             </div>
 
             <div class='label-float'>
-                <input type='text' id='senha' required>
+                <input type='text' id='email' required>
                 <label for="senha">E-mail</label>
             </div>
 
@@ -43,7 +43,7 @@
             </div>
 
             <div class='justify-center'>
-                <button>Cadastre-se</button>
+              <button type="button" id="cadastrar">Cadastre-se</button>
             </div>
 
             <div class='justify-center'>
@@ -56,6 +56,9 @@
 
         </div>
     </div>
+
+    <script src="./cadastro.js">
+    </script>
 </body>
 
 </html>
