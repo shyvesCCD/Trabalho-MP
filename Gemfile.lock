@@ -60,19 +60,25 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
+<<<<<<< HEAD
     bcrypt (3.1.16)
+=======
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
     bootsnap (1.9.1)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+<<<<<<< HEAD
     devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+=======
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
     erubi (1.10.0)
     ffi (1.15.4)
     globalid (0.5.2)
@@ -90,6 +96,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+<<<<<<< HEAD
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
@@ -106,6 +113,17 @@ GEM
     rack (2.2.3)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
+=======
+    minitest (5.14.4)
+    msgpack (1.4.2)
+    nio4r (2.5.8)
+    nokogiri (1.12.5-x86_64-linux)
+      racc (~> 1.4)
+    puma (5.5.2)
+      nio4r (~> 2.0)
+    racc (1.6.0)
+    rack (2.2.3)
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.1.4.1)
@@ -138,6 +156,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+<<<<<<< HEAD
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -145,6 +164,8 @@ GEM
       actionmailer (>= 3.2.6, < 7)
       actionpack (>= 3.2.6, < 7)
       devise (>= 3.2, < 6)
+=======
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
     spring (3.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -157,6 +178,7 @@ GEM
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+<<<<<<< HEAD
     warden (1.2.9)
       rack (>= 2.0.9)
     websocket-driver (0.7.5)
@@ -166,17 +188,31 @@ GEM
 
 PLATFORMS
   ruby
+=======
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    zeitwerk (2.5.1)
+
+PLATFORMS
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
   x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
+<<<<<<< HEAD
   devise
   listen (~> 3.3)
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.4, >= 6.1.4.1)
   simple_token_authentication
+=======
+  listen (~> 3.3)
+  puma (~> 5.0)
+  rails (~> 6.1.4, >= 6.1.4.1)
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
   spring
   sqlite3 (~> 1.4)
   tzinfo-data

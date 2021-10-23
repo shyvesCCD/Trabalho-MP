@@ -1,4 +1,5 @@
 class UserController < ApplicationController
+<<<<<<< HEAD
     acts_as_token_authentication_handler_for User, only: [:logout, :create, :delete]
 
     def login
@@ -21,6 +22,8 @@ class UserController < ApplicationController
     end 
     
     # ----------------------------------------------------------------- 
+=======
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
 
     def index
         user = User.all
@@ -61,6 +64,10 @@ class UserController < ApplicationController
     private
 
     def user_params
+<<<<<<< HEAD
         params.require(:user).permit(:name, :email, :password)
+=======
+        params.require(:user).permit(:nickname, :email, :password)
+>>>>>>> 9bba58abceec332e7274946a8ebff9bd0b6e7108
     end    
 end
